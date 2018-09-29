@@ -1,4 +1,5 @@
-#NL Emoji Conversational Bot API 💁🏻‍♂️😻🔥
+#NL Emoji Conversational Bot API 😻🔥
+
 This is a project that tries to play around with the power of a very simple NL engine, defined as a
 feedforward (fully connected) neural network in Tensorflow, using softmax activation with a regression in the end. So, we're basically transforming the NL problem into an intent classification problem. Cool, right?
 
