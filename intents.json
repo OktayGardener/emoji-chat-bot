@@ -1,0 +1,115 @@
+{
+    "intents": [
+        {
+            "tag": "happy",
+            "patterns": [
+                "happy",
+                "glad",
+                "merry",
+                "cheerful",
+                "joyful",
+                "fortunate"
+            ],
+            "responses": [
+                "🙂"
+            ]
+        },
+        {
+            "tag": "sad",
+            "patterns": [
+                "sad",
+                "unhappy",
+                "miserable",
+                "low",
+                "down"
+            ],
+            "responses": [
+                "☹️"
+            ]
+        },
+        {
+            "tag": "excited",
+            "patterns": [
+                "excited",
+                "enthusiastic",
+                "eager"
+            ],
+            "responses": [
+                "😃"
+            ]
+        },
+        {
+            "tag": "shocked",
+            "patterns": [
+                "shocked",
+                "shook",
+                "shookt",
+                "baffled"
+            ],
+            "responses": [
+                "😱"
+            ]
+        },
+        {
+            "tag": "angry",
+            "patterns": [
+                "angry",
+                "annoyed"
+            ],
+            "responses": [
+                "😡"
+            ]
+        },
+        {
+            "tag": "relaxed",
+            "patterns": [
+                "relaxed",
+                "chill"
+            ],
+            "responses": [
+                "😌"
+            ]
+        },
+        {
+            "tag": "sleepy",
+            "patterns": [
+                "sleepy",
+                "tired"
+            ],
+            "responses": [
+                "😴"
+            ]
+        },
+        {
+            "tag": "save",
+            "patterns": [
+                "my favourite emoji is",
+                "my favourite is",
+                "save my favourite",
+                "save my favourite",
+                "store my favourite"
+            ],
+            "responses": [
+                "Ok, saved."
+            ]
+        },
+        {
+            "tag": "return_saved",
+            "patterns": [
+                "what is",
+                "what's my",
+                "display my",
+                "what is my favourite",
+                "what's my favourite",
+                "what's my favourite?",
+                "what is my favourite emoji?",
+                "what's my favourite emoji",
+                "what is my favourite emoji",
+                "show me my favourite emoji"
+            ],
+            "responses": [
+                "Your favorite emoji is:"
+            ]
+        }
+    ]
+}

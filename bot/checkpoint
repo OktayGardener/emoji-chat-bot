@@ -1,0 +1,2 @@
+model_checkpoint_path: "/Users/oktaybahceci/Documents/dev/personal-projects/bots/chat-server-chatbot/bot/model.tflearn"
+all_model_checkpoint_paths: "/Users/oktaybahceci/Documents/dev/personal-projects/bots/chat-server-chatbot/bot/model.tflearn"

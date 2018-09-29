@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>NL Emoji Chat</title>
+  <link rel="stylesheet" type="text/css" href="//stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <h1>NL Emoji Chat</h1>
+
+    <br><br>
+
+    <form action="{{ url_for('index') }}" method="post" class="add-entry form-group">
+      <dl>
+        <dt>Username:</dt>
+        <dd><input type="text" size="30" name="username" class="form-control col-sm-4"></dd>
+        <dt>Message:</dt>
+        <dd><textarea name="query" rows="5" cols="40" class="form-control col-sm-4"></textarea></dd>
+        <br><br>
+        <dd><input type="submit" class="btn btn-primary" value="Send"></dd>
+      </dl>
+    </form>
+
+    {% for message in get_flashed_messages() %}
+    <div class="flash alert alert-success col-sm-4" role="success">{{ message }}</div>
+    {% endfor %}
+
+  </div>
+
+  <script src="//code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script src="//stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="{{url_for('static', filename='main.js') }}"></script>
+
+</body>
+
+</html>

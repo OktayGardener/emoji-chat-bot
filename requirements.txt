@@ -1,0 +1,7 @@
+Flask==1.0.2
+Flask-SQLAlchemy==2.3.2
+gunicorn==19.8.1
+tflearn==0.3.2
+numpy==1.15.2
+nltk==3.3
+tensorflow==1.1.0
