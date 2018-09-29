@@ -1,4 +1,4 @@
-#NL Emoji Conversational Bot API 😻🔥
+# NL Emoji Conversational Bot API 😻🔥
 
 This is a project that tries to play around with the power of a very simple NL engine, defined as a
 feedforward (fully connected) neural network in Tensorflow, using softmax activation with a regression in the end. So, we're basically transforming the NL problem into an intent classification problem. Cool, right?
@@ -11,13 +11,13 @@ This project has a 'bot' in its engine, and uses Flask for exposing an API throu
 🦄 APIs in requirements.txt
 
 This project contains:
-##Bot
+## Bot
 A conversational 'bot', trained on data defined in intents.json. Able to infer the intent of a sentence/conversation and reply in a manner you define.
 
 Known issues:
 Mixing up the save/return_saved domains. Currently, I've only seen correct mapping by saying 'What's my favourite' for retreiving favourite emoji, everything else maps to save 🤷🏻‍♂️
 
-##Flask Server
+## Flask Server
 Flask microservice for creating and exposing API through /chat.
 
 ###API
@@ -26,15 +26,15 @@ Example call:
 /chat?username=oktay&query=hi my favourite emoji is 😈
 ```
 
-##Database
+## Database
 SQLAlchemy DB for ease, storing user favourite emojis.
 
-##Model + Training
+## Model + Training
 There's a trained model in the /bot catalog.
 If you want to train again with new data, run training in
 ```bot.py``` by executing ```python bot.py```
 
-##How to Run
+## How to Run
 First off, create the database:
 ```python create_db.py```
 
