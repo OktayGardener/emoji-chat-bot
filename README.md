@@ -20,7 +20,7 @@ Mixing up the save/return_saved domains. Currently, I've only seen correct mappi
 ## Flask Server
 Flask microservice for creating and exposing API through /chat.
 
-###API
+### API
 Example call:
 ```
 /chat?username=oktay&query=hi my favourite emoji is 😈
